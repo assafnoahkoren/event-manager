@@ -1,0 +1,15 @@
+{
+  "name": "event-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/assafnoahkoren/event-manager",
+  "author": "Assaf Koren <assafnoahkoren@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "projects/*"
+  ],
+  "dependencies": {
+    "shared": "*"
+  },
+  "private": true
+}
